@@ -79,7 +79,11 @@ WSGI_APPLICATION = 'carProject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': "car_db",
+        'NAME': 'car_security_gt',
+        'USER':'manolocap',
+        'PASSWORD':'root',
+        'PORT':'3306',
+        'HOST': 'localhost',
     }
 }
 
